@@ -1,0 +1,9 @@
+fastapi==0.136.1
+pydantic==2.13.4
+pymorphy3==2.0.6
+pytest==9.0.3
+scikit_learn==0.24.2
+sentence_transformers==5.1.2
+spacy==3.8.13
+transformers==4.57.1
+uvicorn==0.46.0

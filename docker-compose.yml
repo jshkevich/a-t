@@ -1,0 +1,22 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: my_backend
+    ports:
+      - "8000:8000"
+    restart: always
+    # Если есть .env файл в бэкенде, раскомментируй строку ниже:
+    # env_file:
+    #   - ./backend/.env
+
+  frontend:
+    build: ./frontend
+    container_name: my_frontend
+    ports:
+      - "3000:80" # Будет доступен на localhost:3000
+    depends_on:
+      - backend
+    restart: always
