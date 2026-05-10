@@ -19,14 +19,21 @@ jshkevich_as_23
 
 Все выводы сопровождаются **оценкой уверенности (confidence score)** и должны интерпретироваться как вероятностные.
 
-## 🚀 Быстрый запуск (через Docker)
-
-Это рекомендуемый способ запуска. Вам не нужно устанавливать Python или Node.js, потребуется только Docker.
-
 ### Требования
+
+* Python 3.11+ Node.js 14+
+* pip / npm
+
+
 Убедитесь, что у вас установлены:
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+
+
+
+## 🚀 Как запустить (через Docker)
+
+Это рекомендуемый способ запуска. Вам не нужно устанавливать Python или Node.js, потребуется только Docker.
 
 ### Шаги для запуска:
 
@@ -50,7 +57,7 @@ Frontend (Web UI): http://localhost:3000
 
 Backend API: http://localhost:8000
 
-💻 Локальная (Без Docker)
+## (Без Docker)
 
 ### Backend (FastAPI)
 
