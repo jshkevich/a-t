@@ -24,8 +24,8 @@
 1. Склонируйте репозиторий и перейдите в папку с проектом:
 
 ```bash
-git clone https://github.com/ВАШ_НИК/ВАШ_РЕПОЗИТОРИЙ.git
-cd ВАШ_РЕПОЗИТОРИЙ
+git clone https://github.com/jshkevich/a-t.git
+cd a-t
 ```
 
 Запустите сборку и старт контейнеров:
