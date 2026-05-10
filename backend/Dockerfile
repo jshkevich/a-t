@@ -11,6 +11,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN python -m spacy download ru_core_news_md
+
 # Копируем весь остальной код бэкенда
 COPY . .
 
